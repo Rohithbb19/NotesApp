@@ -16,7 +16,7 @@ function TaskCard(props){
                 </div>
                 <div className="h-[2px] w-full mt-1 rounded-full bg-[#6F2F91]"></div>
                 <div></div>
-                <p className=" overflow-hidden">{props.data.description}</p>    
+                <p className="break-words">{props.data.description}</p>    
         </div>
     )
 }
