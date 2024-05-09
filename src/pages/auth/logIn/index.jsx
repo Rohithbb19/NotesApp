@@ -23,10 +23,10 @@ function LogIn() {
     }
   }
   let initialValue = {
-      email: "rio@gmail.com",
-    // email: "",
-    password: "Rio@9941745151",
-    // password: "",
+      // email: "rio@gmail.com",
+    email: "",
+    // password: "Rio@9941745151",
+    password: "",
     emailError: null,
     passwordError: null,
   };
